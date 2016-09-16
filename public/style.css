@@ -14,18 +14,18 @@ body {
 
 #setup {
   color: white;
-  font-size: 40px;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-family: 'Oswald';
 }
 
 #punchline {
   color: white;
   font-size: 25px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald';
 }
 
 .spanSub {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald';
   color: white;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -54,7 +54,7 @@ body {
   text-align: center;
   padding: 10px 35px;
   border-radius: 5px;
-  font-size: 22px;
+  font-size: 30px;
   text-decoration: none;
   position: relative;
   display: inline-block;
@@ -65,12 +65,12 @@ body {
   -webkit-transform: translate(0px, 5px);
 }
 
-.yellow {
+.purple {
   background-color: #3F51B5;
   box-shadow: 0px 3px 0px 0px #512DA8;
 }
 
-.yellow:hover {
+.purple:hover {
   background-color: #B39DDB;
 }
 

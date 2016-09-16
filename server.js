@@ -24,7 +24,7 @@ app.route("/jokes").get(function(req,res,next){
 app.post('/upvote', function(req, res) {
     var jokeIndex = req.body.id;
     if (typeof jokes[jokeIndex].votes === 'undefined') {
-        console.log("Creating vote for this joke");
+        console.log("Upvoting");
         jokes[jokeIndex].votes = 0;
     }
 
@@ -36,7 +36,7 @@ app.post('/upvote', function(req, res) {
 app.post('/downvote', function(req, res) {
     var jokeIndex = req.body.id;
     if (typeof jokes[jokeIndex].votes === 'undefined') {
-        console.log("Creating vote for this joke");
+        console.log("Downvoting");
         jokes[jokeIndex].votes = 0;
     }
 

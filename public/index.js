@@ -39,6 +39,28 @@ $(function() {
     );
 });
 
+$("#getJoke").click(
+        function() {
+            $("#setup, #punchline, #voting, #votes-container").show();
+
+            $.get("/jokes",function(data){
+                $("#setup").html(data.setup);
+                $("#punchline").html(data.punchline);
+
+                index = data._id;
+
+                if (data.votes === undefined) {
+                    $("#votes").html(0);
+                } else {
+                    $("#votes").html(data.votes);
+                }
+
+                changeVoteColor(data.votes);
+
+            },"json")
+        }
+    );
+
 $(function() {
     $("#clicktoShow").click(
       function toggleClass() {

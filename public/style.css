@@ -15,17 +15,17 @@ body {
 #setup {
   color: white;
   font-size: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #punchline {
   color: white;
   font-size: 25px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .spanSub {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: white;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -52,7 +52,7 @@ body {
 .Btn {
   padding-top: 5px;
   text-align: center;
-  padding: 10px 15px;
+  padding: 10px 35px;
   border-radius: 5px;
   font-size: 22px;
   text-decoration: none;
@@ -66,12 +66,12 @@ body {
 }
 
 .yellow {
-  background-color: #FFC107;
-  box-shadow: 0px 3px 0px 0px #FFAB00;
+  background-color: #3F51B5;
+  box-shadow: 0px 3px 0px 0px #512DA8;
 }
 
 .yellow:hover {
-  background-color: #FFD54F;
+  background-color: #B39DDB;
 }
 
 .red {

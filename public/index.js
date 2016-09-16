@@ -43,16 +43,16 @@ $(function() {
     $("#clicktoShow").click(
       function toggleClass() {
         if (textbool) {
-          textbool = true;
-          $(this).html("遮蔽答案");
+          textbool = false;
+          $(this).html("看答案");
           $(this).css({
             "font-family": "Oswald",
             "color": "white"
           });
         }
         else {
-		  textbool = false;
-          $(this).html("看答案");
+          textbool = true;
+          $(this).html("遮蔽答案");
           $(this).css({
             "font-family": "Oswald",
             "color": "white"
